@@ -1,0 +1,126 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body {
+  font-family: "Roboto", verdana, sans-serif;
+  line-height: 1.7;
+  color: #333;
+  background-color: #f5f7fa;
+}
+header {
+  background: #374e41;
+  color: white;
+  padding: 30px 20px;
+  text-align: center;
+  margin-bottom: 30px;
+  border-radius: 8px;
+}
+h1,
+h2,
+h3 {
+  font-family: "Montserrat", Georgia, serif;
+  font-weight: 700;
+}
+code,
+pre {
+  font-family: "Space Mono", "Courier New", monospace;
+}
+h1 {
+  font-size: 2.2em;
+  margin-bottom: 8px;
+}
+h2 {
+  border-bottom: 2px solid #4caf50;
+  padding-bottom: 5px;
+  margin-bottom: 15px;
+}
+nav ul {
+  list-style: none;
+  margin-top: 20px;
+}
+nav li {
+  margin: 0 15px;
+}
+nav a {
+  color: white;
+  font-weight: bold;
+}
+p {
+  margin-bottom: 15px;
+}
+ul {
+  margin-left: 20px;
+}
+li {
+  margin-bottom: 8px;
+}
+#bio,
+#competence,
+#contact {
+  background: white;
+  padding: 35px;
+  margin: 0 auto 40px auto;
+  max-width: 900px;
+  border-radius: 12px;
+  border: 1px solid #e0e0e0;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.08);
+}
+#bio {
+  border-left: 4px solid #4caf50;
+}
+#competence {
+  border-left: 4px solid #2196f3;
+}
+#contact {
+  border-left: 4px solid #ff9800;
+}
+#nom,
+#email,
+#sujet,
+#message {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  text-align: center;
+  color: #333;
+  border: 1px solid #ccc;
+}
+aside {
+  background: #f0f0f0;
+  padding: 20px;
+  margin-top: 30px;
+  border-radius: 8px;
+  text-align: center;
+}
+footer {
+  background: #d9dbe0;
+  color: rgb(32, 80, 171);
+  text-align: center;
+  padding: 15px 20px;
+  margin-top: 30px;
+  border-radius: 8px;
+}
+fieldset {
+  border: 1px solid #ccc;
+  padding: 20px;
+  border-radius: 8px;
+}
+button {
+  background: #4caf50;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+input[type="submit"]:hover,
+button:hover {
+  background: #45a049;
+}
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
